@@ -7,7 +7,7 @@ Created on Sat Apr  6 19:16:41 2024
 
 import pandas as pd
 
-df = pd.read_csv('data/E0.csv')
+df = pd.read_csv('../data/E0.csv')
 
 home_teams = list(df['HomeTeam'])
 away_teams = list(df['AwayTeam'])
